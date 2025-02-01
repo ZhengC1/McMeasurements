@@ -1,0 +1,35 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change this if using a different branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Install Dependencies and Build
+        run: |
+          npm install  # Change this to match your project (e.g., pip install for Python)
+          npm run build  # Change if your build process is different
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./frontend # Change this to the output directory of your build
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
+
