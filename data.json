@@ -1,6 +1,19 @@
 [
-    { "Name": "Alice", "Age": 25, "City": "New York" },
-    { "Name": "Bob", "Age": 30, "City": "Los Angeles" },
-    { "Name": "Charlie", "Age": 28, "City": "Chicago" }
+  { "Location": "Apex North Carolina",
+    "Depth": "1/4'", 
+    "Height": "2",
+    "Width": "1",
+  },
+  { 
+    "Location": "Leland North Carolina",
+    "Depth": "1/2",
+    "Height": "2",
+    "Width": "1\" 10/16'",
+  },
+  { "Location": "Covina California",
+    "Depth": "9/16'",
+    "Height": "2\" 1/8'",
+    "Width": "1\" 1/2'",
+  }
 ]
 
