@@ -1,20 +1,26 @@
 [
-  { "Location": "Apex North Carolina",
+  { "Location": "Apex, North Carolina",
     "Depth": "1/4'", 
     "Height": "2",
     "Width": "1"
   },
   { 
-    "Location": "Leland North Carolina",
+    "Location": "Leland, North Carolina",
     "Depth": "1/2",
     "Height": "2",
     "Width": "1\" 10/16'"
   },
   { 
-    "Location": "Covina California",
+    "Location": "Covina, California",
     "Depth": "9/16'",
     "Height": "2\" 1/8'",
     "Width": "1\" 1/2'"
+  },
+    { 
+    "Location": "Minneapolis, Minnesota",
+    "Depth": "10/16'",
+    "Height": "2\" 1/2'",
+    "Width": "1\" 3/4'"
   }
 ]
 
