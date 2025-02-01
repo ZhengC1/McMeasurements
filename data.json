@@ -1,6 +1,6 @@
 [
   { "Location": "Apex North Carolina",
-    "Depth": "1/4'", 
+    "Depth": "1/4\'", 
     "Height": "2",
     "Width": "1",
   },
@@ -8,12 +8,12 @@
     "Location": "Leland North Carolina",
     "Depth": "1/2",
     "Height": "2",
-    "Width": "1\" 10/16'",
+    "Width": "1\" 10/16\'",
   },
   { "Location": "Covina California",
-    "Depth": "9/16'",
-    "Height": "2\" 1/8'",
-    "Width": "1\" 1/2'",
+    "Depth": "9/16\'",
+    "Height": "2\" 1/8\'",
+    "Width": "1\" 1/2\'",
   }
 ]
 
