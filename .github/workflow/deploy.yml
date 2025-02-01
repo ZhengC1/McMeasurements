@@ -20,11 +20,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Install Dependencies and Build
-        run: |
-          npm install  # Change this to match your project (e.g., pip install for Python)
-          npm run build  # Change if your build process is different
-
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
